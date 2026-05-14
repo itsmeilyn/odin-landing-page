@@ -6,6 +6,11 @@
 
   /* button color */
   --primary-btn: #3882f6;
+
+  /* font colors */
+  --quote-color: #1f2937;
+  --quote-lighter: 300;
+  --quote-size: 36px;
 }
 
 body {
@@ -75,4 +80,17 @@ ul {
 
 h2 {
   text-align: center;
+}
+
+/* Blockquote section */
+.quote-section {
+  background-color: var(--gray-bg);
+  color: var(--quote-color);
+  font-weight: var(--quote-lighter);
+  font-size: var(--quote-size);
+}
+
+cite {
+  font-weight: bold;
+  text-align: left;
 }
