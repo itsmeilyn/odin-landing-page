@@ -13,10 +13,12 @@ body {
 
 /* Header */
 header {
-  background-color: var(--dark-bg-color);
+  background-color: var(--dark-bg);
   color: white;
 }
 
 h1 {
   margin-top: 0;
 }
+
+/* Hero */
