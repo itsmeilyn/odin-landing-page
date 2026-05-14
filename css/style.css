@@ -100,3 +100,16 @@ cite {
   text-align: right;
   margin-right: 100px;
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--dark-bg);
+  color: white;
+  padding: 12px;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
