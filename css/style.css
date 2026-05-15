@@ -43,9 +43,13 @@ nav {
   margin-bottom: 50px;
 }
 
+nav p {
+  font-weight: bold;
+}
+
 ul {
   display: flex;
-  gap: 8px;
+  gap: 24px;
   list-style-type: none;
   padding-left: 0;
 }
