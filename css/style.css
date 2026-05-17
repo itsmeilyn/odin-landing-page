@@ -118,7 +118,7 @@ ul {
   padding: 24px 0;
 }
 
-h2 {
+#my-gallery h2 {
   text-align: center;
   font-size: 36px;
   color: var(--header-text);
@@ -163,6 +163,36 @@ cite {
 #author-cite {
   text-align: right;
   margin-right: 100px;
+}
+
+/* Call-to-action section */
+.signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+.signup-banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  background-color: var(--primary-btn);
+  color: var(--primary-text);
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.cta-btn {
+  border-style: none;
+  border-radius: 0.5em;
+  background-color: var(--primary-btn);
+  color: var(--primary-text);
+  border: 2px solid var(--primary-text);
+  width: 100px;
+  height: 35px;
+  padding: 8px 16px;
 }
 
 /* Footer */
